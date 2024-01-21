@@ -35,12 +35,14 @@ INSTALLED_APPS = [
     'realtors.apps.RealtorsConfig', # Local App 
     'pages.apps.PagesConfig', # Local App 
     'listings.apps.ListingsConfig', # Local App 
+    'accounts.apps.AccountsConfig', # Local App 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
 
     
 ]
@@ -137,3 +139,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Media Folder 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+# Messages
+from django.contrib.messages import constants as messages
+
+MESSAGE_TAGS = {
+    messages.ERROR: "danger"
+}
