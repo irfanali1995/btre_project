@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig', # Local App 
     'listings.apps.ListingsConfig', # Local App 
     'accounts.apps.AccountsConfig', # Local App 
+    'contacts.apps.ContactsConfig', # Local App 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -146,3 +147,10 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: "danger"
 }
+
+# Email config
+# EMAIL_HOST = 'stmp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'gmail'
+# EMAIL_HOST_PASSWORD = 'password'
+# EMAIL_USE_TLS=True
