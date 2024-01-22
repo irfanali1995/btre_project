@@ -30,35 +30,35 @@ This is a real estate listing web application built with Django.
 
 # Running the Project
 - Initiate virtual envornment in project directory
-,,,
+```
   python3 -m venv env
-  ,,,
+```
   
 - Activate virtual envornment (Mac)
-'''
+```
   source env/bin/activate
-'''
+```
 - Activate virtual envornment (Mac)
-'''
+```
   source env/bin/activate
-'''
+```
 
 - Migrate Datebase 
-'''
+```
 python manage.py makemigrations
-'''
+```
 
-'''
+```
 python manage.py migrate
-'''
+```
 
 - Create Admin User (Needed to access admin panel)
-'''
+  ```
 python manage.py createsuperuser
-'''
+```
 
 - Run Deployement Server 
-'''
+```
 python manage.py runserver 
-'''
+```
 The app will be served at http://127.0.0.1:8000 
