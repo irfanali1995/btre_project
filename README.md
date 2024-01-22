@@ -19,6 +19,7 @@ This is a real estate listing web application built with Django.
 - Role based users (staff vs non-staff)
 
 # App Walkthrough
+<span style="color:red;">Note</span> word
 - Homepage - Hero image and search bar
 - About - List of realtors
 - Featured Listings - Paginated list of properties
@@ -28,7 +29,7 @@ This is a real estate listing web application built with Django.
 - Login - User login
 - Dashboard - Shows user inquiries
 
-# Running the Project
+# Running the Project 
 - Initiate virtual envornment in project directory
 ```
   python3 -m venv env
@@ -43,7 +44,7 @@ This is a real estate listing web application built with Django.
   source env/bin/activate
 ```
 
-- Migrate Datebase 
+- Migrate Datebase (<span style="color: red;">red text</span>  Before this step you need to install posgresql and pgadmin) 
 ```
 python manage.py makemigrations
 ```
