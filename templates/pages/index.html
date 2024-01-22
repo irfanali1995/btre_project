@@ -11,7 +11,7 @@
       <div class="home-search p-5">
         <div class="overlay p-5">
           <h1 class="display-4 mb-4">
-            Property Searching Just Got So Easy
+            Your Journey Home Starts Here
           </h1>
           <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae quas, asperiores eveniet vel nostrum magnam
             voluptatum tempore! Consectetur, id commodi!</p>
@@ -59,7 +59,7 @@
                   </select>
                 </div>
               </div>
-              <button class="btn btn-secondary btn-block mt-4" type="submit">Submit form</button>
+              <button class="btn btn-secondary btn-block mt-4" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -73,7 +73,6 @@
     <div class="container">
       <h3 class="text-center mb-3">Latest Listings</h3>
       <div class="row">
-        
         {% if listings %}
           {% for listing in listings %}
             <div class="col-md-6 col-lg-4 mb-4">
@@ -119,7 +118,7 @@
             </div>
 
           {% endfor %}
-
+      </div>
         {% else %}
         <div class="col-md-12">
           <p>No Listing Available</p>
@@ -127,9 +126,6 @@
         {% endif %}
         <!-- Listing 1 -->
        
-
-       
-
   <section id="services" class="py-5 bg-secondary text-white">
     <div class="container">
       <div class="row text-center">
@@ -143,7 +139,7 @@
         <div class="col-md-4">
           <i class="fas fa-home fa-4x mr-4"></i>
           <hr>
-          <h3>Propery Management</h3>
+          <h3>Property Management</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, debitis nam! Repudiandae, provident iste consequatur
             hic dignissimos ratione ea quae.</p>
         </div>
@@ -157,5 +153,5 @@
       </div>
     </div>
   </section>
+
 {% endblock %}
-    

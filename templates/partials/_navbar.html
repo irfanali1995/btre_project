@@ -19,15 +19,6 @@
           >
             <a class="nav-link" href="{% url 'index' %}">Home</a>
           <li
-          {% if 'about' in request.path %} 
-            class="nav-item active mr-3"
-          {% else %}
-            class="nav-item mr-3"
-          {% endif %} 
-          >
-            <a class="nav-link" href="{% url 'about' %}">About</a>
-          </li>
-          <li
           {% if 'listings' in request.path %} 
             class="nav-item active mr-3"
           {% else %}
@@ -36,7 +27,15 @@
           >
             <a class="nav-link" href="{% url 'listings' %}">Featured Listings</a>
           </li>
-          
+          <li
+          {% if 'about' in request.path %} 
+            class="nav-item active mr-3"
+          {% else %}
+            class="nav-item mr-3"
+          {% endif %} 
+          >
+            <a class="nav-link" href="{% url 'about' %}">About</a>
+          </li>
         </ul>
 
         <ul class="navbar-nav ml-auto">
@@ -48,7 +47,7 @@
                 class="nav-item mr-3"
             {% endif %}>
               <a class="nav-link" href="{% url 'dashboard' %}">
-                <i class="fas fa-user-plus"></i> Welcome {{ user.name }} Dashboard</a>
+                <i class="fas fa-user-plus"></i> Welcome {{ user.name }} Dashboard</a>  
           </li>
           <li class="nav-tem" mr-3>
             <a href="javascript:{document.getElementById('logout').submit()}" class="nav-link">

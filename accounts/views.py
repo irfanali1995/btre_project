@@ -63,7 +63,7 @@ def logout(request):
          return redirect('index')
 
 def dashboard(request):
-    user_contats = Contact.objects.order_by('-contact-date').filter(user_id=request.user.id)
+    user_contats = Contact.objects.order_by('-contact_date').filter(user_id=request.user.id)
     context = {
         'contacts': user_contats
     }
