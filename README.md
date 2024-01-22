@@ -1,6 +1,6 @@
 <div style="display:flex;align-items:center;">
 
-  <img src="logo.png" width="80" height="80" style="margin-right: 10px;">
+  <img src="logo-dark.png" width="80" height="80" style="margin-right: 10px;">
   
   <h1>BT Real Estate Website</h1>
   
