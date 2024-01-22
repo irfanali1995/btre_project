@@ -30,9 +30,10 @@ This is a real estate listing web application built with Django.
 
 # Running the Project
 - Initiate virtual envornment in project directory
-'''
-  python3 -m venv env 
-'''
+,,,
+  python3 -m venv env
+  ,,,
+  
 - Activate virtual envornment (Mac)
 '''
   source env/bin/activate
