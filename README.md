@@ -1,10 +1,12 @@
-<div style="text-align:center;">
+<div style="display:flex;align-items:center;">
 
-# BT Real Estate App
-
+  <img src="logo.png" width="80" height="80" style="margin-right: 10px;">
+  
+  <h1>BT Real Estate Website</h1>
+  
 </div>
 
-# Table of Contents
+## Table of Contents
 
 - [About the Project](#chapter-1) 
 
