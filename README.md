@@ -1,14 +1,31 @@
 # BT Real Estate App
 
+# Table of Contents
+   [About the Project](#chapter-1) 
+   [Technology Stack](#chapter-2)
+   [Features](#chapter-3)
+   [App Walkthrough](#chapter-4)
+   [Usage](#chapter-5)
+   [Aknowledgement](#chapter-6)
+
+## About the Project <a id="chapter-1"></a>
 This is a real estate listing web application built with Django.
 
-# Technology Stack
+<img src="https://github.com/irfanali1995/btre_project/assets/75564524/2a86cd02-a478-477d-83a2-41db9749d6ac" width="200" height="150">
+
+<img src="https://github.com/irfanali1995/btre_project/assets/75564524/94783274-622e-4bf5-8872-bceead1d72ff" width="200" height="150">
+
+<img src="https://github.com/irfanali1995/btre_project/assets/75564524/482d1fb6-008a-4963-bc28-43b0a86b8e02" width="200" height="150">
+
+<img src="https://github.com/irfanali1995/btre_project/assets/75564524/85fdb4b0-365a-40ec-b814-813437f6670d" width="200" height="150">
+
+## Technology Stack <a id="chapter-2"></a>
 - Django
 - Python
-- SQLite Database
+- Postgresql Database
 - Bootstrap CSS Framework
 
-# Features
+## Features <a id="chapter-3"></a>
 - Home, About, Listings, Single Listing, Search, Register, Login, and Dashboard pages
 - Mobile friendly responsive design
 - Search listings by keyword, city, state, bedrooms and price
@@ -18,8 +35,7 @@ This is a real estate listing web application built with Django.
 - Admin dashboard to manage listings, realtors, inquiries
 - Role based users (staff vs non-staff)
 
-# App Walkthrough
-<span style="color:red;">Note</span> word
+## App Walkthrough <a id="chapter-4"></a>
 - Homepage - Hero image and search bar
 - About - List of realtors
 - Featured Listings - Paginated list of properties
@@ -29,7 +45,12 @@ This is a real estate listing web application built with Django.
 - Login - User login
 - Dashboard - Shows user inquiries
 
-# Running the Project 
+## Usage <a id="chapter-5"></a>
+- Clone Repo using git
+```
+  git clone (repo-link)
+```
+
 - Initiate virtual envornment in project directory
 ```
   python3 -m venv env
@@ -44,7 +65,7 @@ This is a real estate listing web application built with Django.
   source env/bin/activate
 ```
 
-- Migrate Datebase (<span style="color: red;">red text</span>  Before this step you need to install posgresql and pgadmin) 
+- Migrate Datebase (**Note**:Before this step you need to install posgresql and pgadmin) 
 ```
 python manage.py makemigrations
 ```
@@ -63,3 +84,9 @@ python manage.py createsuperuser
 python manage.py runserver 
 ```
 The app will be served at http://127.0.0.1:8000 
+
+## Aknowledgement <a id="chapter-6"></a>
+- [Brad Traversy](https://github.com/bradtraversy)
+
+  
+
