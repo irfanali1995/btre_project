@@ -53,7 +53,7 @@ python manage.py migrate
 ```
 
 - Create Admin User (Needed to access admin panel)
-  ```
+```
 python manage.py createsuperuser
 ```
 
