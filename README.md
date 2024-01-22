@@ -1,12 +1,22 @@
+<div style="text-align:center;">
+
 # BT Real Estate App
 
+</div>
+
 # Table of Contents
-   [About the Project](#chapter-1) 
-   [Technology Stack](#chapter-2)
-   [Features](#chapter-3)
-   [App Walkthrough](#chapter-4)
-   [Usage](#chapter-5)
-   [Aknowledgement](#chapter-6)
+
+- [About the Project](#chapter-1) 
+
+- [Technology Stack](#chapter-2)
+
+- [Features](#chapter-3)
+
+- [App Walkthrough](#chapter-4)
+
+- [Usage](#chapter-5)
+
+- [Aknowledgement](#chapter-6)
 
 ## About the Project <a id="chapter-1"></a>
 This is a real estate listing web application built with Django.
