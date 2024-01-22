@@ -1,10 +1,4 @@
-<div style="display:flex;align-items:center;">
-
-  <img src="logo-dark.png" width="80" height="80" style="margin-right: 10px;">
-  
-  <h1>BT Real Estate Website</h1>
-  
-</div>
+<h1 align="center"> BT Real Estate  WebApp</h1>
 
 ## Table of Contents
 
