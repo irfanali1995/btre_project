@@ -17,9 +17,9 @@
 ## About the Project <a id="chapter-1"></a>
 This is a real estate listing web application built with Django.
 
-<img src="https://github.com/irfanali1995/btre_project/assets/75564524/2a86cd02-a478-477d-83a2-41db9749d6ac" width="200" height="150">
+<img src="https://github.com/irfanali1995/btre_project/assets/75564524/94e86231-0a54-4e64-831d-e6d6a3bb02c1" width="200" height="150">
 
-<img src="https://github.com/irfanali1995/btre_project/assets/75564524/94783274-622e-4bf5-8872-bceead1d72ff" width="200" height="150">
+<img src="https://github.com/irfanali1995/btre_project/assets/75564524/db914a2e-a15f-457c-ab5e-4e455c75b003" width="200" height="150">
 
 <img src="https://github.com/irfanali1995/btre_project/assets/75564524/482d1fb6-008a-4963-bc28-43b0a86b8e02" width="200" height="150">
 
